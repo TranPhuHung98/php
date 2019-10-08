@@ -4,8 +4,10 @@
 <?php
 #Code bài số 4
 include_once("model/book.php");
-$book = new Book(50, "OOP in PHP", "ndungithue", 2019);
+$book = new Book(1,50, "OOP in PHP", "ndungithue", 2019);
 $book->display();
+// $book::Book();
+// $ls = $book::getListFromFile();
 ?>
 
 <?php include_once("footer.php") ?>
